@@ -12,6 +12,7 @@ MERGED from [:react-native-masked-view_masked-view] C:\Users\SdkLpz\Desktop\Reac
 MERGED from [:react-native-gesture-handler] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\SdkLpz\.gradle\caches\transforms-3\221c71d43dbd5b88bd9ef5161912c98c\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SdkLpz\.gradle\caches\transforms-3\2440439db2f6d9d5f76a90648980e461\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r250230] C:\Users\SdkLpz\.gradle\caches\transforms-3\b825e962adf445255b97861e91a2a884\transformed\jetified-android-jsc-r250230\AndroidManifest.xml:2:1-11:12
@@ -172,6 +173,8 @@ MERGED from [:react-native-safe-area-context] C:\Users\SdkLpz\Desktop\React con 
 MERGED from [:react-native-safe-area-context] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\SdkLpz\Desktop\React con TypeScript\MoviApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\SdkLpz\.gradle\caches\transforms-3\221c71d43dbd5b88bd9ef5161912c98c\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\SdkLpz\.gradle\caches\transforms-3\221c71d43dbd5b88bd9ef5161912c98c\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SdkLpz\.gradle\caches\transforms-3\2440439db2f6d9d5f76a90648980e461\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44

@@ -7,10 +7,10 @@ export const WhiteLogo = () => {
         alignItems: 'center',
     }}>
         <Image
-         source={ require('../assets/Logo.png') }
+         source={ require('../assets/moviappWhite.png') }
          style={{
              width:190,
-             height:150,
+             height:210,
          }}
         />
     </View>

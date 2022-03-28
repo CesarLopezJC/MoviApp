@@ -4,8 +4,18 @@ import { LoginScreen } from "../screens/LoginScreen";
 import { RegisterScreen } from "../screens/RegisterScreen";
 import { ProtecterScreen } from "../screens/ProtecterScreen";
 import { AuthContext } from '../context/AuthContext';
+import { HomeScreen } from "../screens/HomeScreen";
+import { Result } from "../interces/movieInterface";
+import { DatailScreen } from "../screens/DatailScreen";
 
-const Stack = createStackNavigator();
+export type RootStackParams={
+  LoginScreen: undefined,
+  RegisterScreen: undefined,
+  HomeScreen: undefined,
+  DatailScreen: Result,
+}
+
+const Stack = createStackNavigator<RootStackParams>();
 
 export const Navigator=() => {
 
@@ -31,7 +41,10 @@ export const Navigator=() => {
           </>
         )
         : (
-          <Stack.Screen name="ProtecterScreen" component={ProtecterScreen} />
+          <>
+            <Stack.Screen name="HomeScreen" component={HomeScreen} />
+            <Stack.Screen name="DatailScreen" component={DatailScreen} />
+          </>
         )
       }
       
