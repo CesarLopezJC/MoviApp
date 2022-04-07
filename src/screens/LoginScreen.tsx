@@ -7,11 +7,15 @@ import { loginStyles } from '../theme/loginTheme'
 import { useForm } from '../hooks/useForm';
 import { StackScreenProps } from '@react-navigation/stack'
 import { AuthContext } from '../context/AuthContext';
+import { PermissionsContext } from '../context/PermissionsContext'
+
 
 interface Props extends StackScreenProps<any, any> {}
 
 export const LoginScreen = ({navigation} : Props) => {
+  const { permissions } = useContext( PermissionsContext );
 
+  console.log({permissions});
   const {singIn, errorMessage, removeError} = useContext(AuthContext);
 
   const {email,password,onChange} = useForm({
@@ -46,9 +50,10 @@ export const LoginScreen = ({navigation} : Props) => {
         <Background/>
         <View style={loginStyles.formContainer}>
               {/* KEYBOARD AVOID VIEW */}
+              
               <WhiteLogo/>
 
-              <Text style={loginStyles.title}>Login</Text>
+              <Text style={loginStyles.title}>Login {permissions}</Text>
 
               <Text style={loginStyles.label}>Email:</Text>
 
@@ -105,7 +110,7 @@ export const LoginScreen = ({navigation} : Props) => {
                     activeOpacity={ 0.8 }
                     onPress={ () => navigation.navigate('RegisterScreen')}
                     >
-                    <Text style={loginStyles.btnText2}>Nueva cuenta</Text>
+                    <Text style={loginStyles.btnText2}>Ubicación</Text>
                     </TouchableOpacity>
               </View>
         </View>

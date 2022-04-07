@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import { createStackNavigator } from '@react-navigation/stack';
 import { LoginScreen } from "../screens/LoginScreen";
-import { RegisterScreen } from "../screens/RegisterScreen";
+import { PermissionsScreen } from "../screens/RegisterScreen";
 import { ProtecterScreen } from "../screens/ProtecterScreen";
 import { AuthContext } from '../context/AuthContext';
 import { HomeScreen } from "../screens/HomeScreen";
 import { Result } from "../interces/movieInterface";
 import { DatailScreen } from "../screens/DatailScreen";
+import { PermissionsContext } from "../context/PermissionsContext";
+import { Text } from 'react-native';
 
 export type RootStackParams={
   LoginScreen: undefined,
@@ -20,10 +22,11 @@ const Stack = createStackNavigator<RootStackParams>();
 export const Navigator=() => {
 
   const {status} = useContext(AuthContext);
+  const { permissions } = useContext( PermissionsContext );
 
-
-
+  console.log({permissions});
   return (
+    
     <Stack.Navigator
       screenOptions={{
         headerShown:false,
@@ -37,7 +40,7 @@ export const Navigator=() => {
         ?(
           <>
             <Stack.Screen name="LoginScreen" component={LoginScreen} />
-            <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
+            <Stack.Screen name="RegisterScreen" component={PermissionsScreen} />
           </>
         )
         : (

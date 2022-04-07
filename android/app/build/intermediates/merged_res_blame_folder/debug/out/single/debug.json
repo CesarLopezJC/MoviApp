@@ -36,11 +36,11 @@
         "source": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rn_edit_text_material.xml.flat",
-        "source": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\src\\main\\res\\drawable\\rn_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rn_edit_text_material.xml.flat",
+        "source": "C:\\Users\\SdkLpz\\Desktop\\React con TypeScript\\MoviApp\\android\\app\\src\\main\\res\\drawable\\rn_edit_text_material.xml"
     }
 ]
